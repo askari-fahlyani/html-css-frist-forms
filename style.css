@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+
+}
+.details{
+    padding: 10px;
+}
+ .logo{
+     margin-bottom: 3px;
+ }
+ .right-btn{
+     display: flex;
+     list-style-type: none;
+     padding: 10px;
+     align-items: center;
+
+ }
+.right-btn li{
+    padding: 10px;
+    background-color: hsl(227deg 7% 34%);
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#first-btn{
+    color:#dfe6e9 ;
+    background-color: black;
+    border: none;
+
+}
+#first-btn:hover{
+    color: #b2bec3;
+}
+#second-btn{
+    background-color:hsl(227deg 7% 34%) ;
+    border: none;
+    border-radius: 2px;
+
+}
+
+#second-btn:hover{
+    background-color: green;
+    color: white;
+    transition: all 0.3s;
+}
+.form {
+    display: flex;
+    width: 30%;
+    border-radius: 10px;
+    height: 30%;
+    margin: 10% auto;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+
+
+}
+.form h2{
+    text-align: center;
+}
+#submit{
+
+}
+#email,#password{
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    margin-bottom: 20px;
+
+
+}
+label{
+    margin-left: 10px;
+    color: black;
+}
+.form p a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+input::placeholder{
+    text-decoration: none;
+}
